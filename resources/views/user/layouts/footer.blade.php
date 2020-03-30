@@ -20,6 +20,3 @@
             </div>
         </div>
     </div>
-    <!-- footer-top-start -->
-   
-<!-- Modal end -->

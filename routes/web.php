@@ -22,5 +22,7 @@ Route::get('users/register', 'Auth\RegisterController@showRegistrationForm')->na
 Route::post('users/register', 'Auth\RegisterController@register')->name('postRegister');
 // Đăng xuất
 Route::get('logout','Auth\LogoutController@getLogout')->name('logout');
-
+//book
 Route::get('book-detail/{id}', 'User\BookDetailController@index')->name('book-detail');
+Route::get('book', 'User\BookController@index')->name('listbook');
+Route::get('search', 'User\BookController@search')->name('searchbook');
